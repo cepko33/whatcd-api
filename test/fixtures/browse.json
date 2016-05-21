@@ -1,0 +1,925 @@
+{
+    "status": "success",
+    "response": {
+        "currentPage": 1,
+        "pages": 1,
+        "results": [{
+            "groupId": 72005546,
+            "groupName": "Shouting Boots Live!",
+            "artist": "Various Artists",
+            "cover": "http://whatimg.com/images/69058818782772704655.jpg",
+            "tags": ["jazz", "rock", "rhythm.and.blues"],
+            "bookmarked": false,
+            "vanityHouse": false,
+            "groupYear": 2010,
+            "releaseType": "Compilation",
+            "groupTime": "1436318491",
+            "maxSize": 484891402,
+            "totalSnatched": 31,
+            "totalSeeders": 4,
+            "totalLeechers": 2,
+            "torrents": [{
+                "torrentId": 32283916,
+                "editionId": 1,
+                "artists": [{
+                    "id": 587558,
+                    "name": "Accoustic Ladyland",
+                    "aliasid": 601085
+                }, {
+                    "id": 587557,
+                    "name": "Artvark Saxophone Quartet",
+                    "aliasid": 601084
+                }, {
+                    "id": 587553,
+                    "name": "Big Jay McNeely & Friends",
+                    "aliasid": 601080
+                }, {
+                    "id": 587694,
+                    "name": "CC Jerome's Jetsetters",
+                    "aliasid": 601224
+                }, {
+                    "id": 91589,
+                    "name": "Che Sudaka",
+                    "aliasid": 91589
+                }, {
+                    "id": 16260,
+                    "name": "Devon Sproule",
+                    "aliasid": 16260
+                }, {
+                    "id": 63517,
+                    "name": "Gianmaria Testa",
+                    "aliasid": 63517
+                }, {
+                    "id": 78822,
+                    "name": "Katzenjammer",
+                    "aliasid": 78822
+                }, {
+                    "id": 120939,
+                    "name": "King Khan & The Shrines",
+                    "aliasid": 120939
+                }, {
+                    "id": 51339,
+                    "name": "Lonely Drifter Karen",
+                    "aliasid": 51339
+                }, {
+                    "id": 68798,
+                    "name": "Malcolm Holcombe",
+                    "aliasid": 68798
+                }, {
+                    "id": 162170,
+                    "name": "Mdungu",
+                    "aliasid": 163310
+                }, {
+                    "id": 587559,
+                    "name": "Niel Cowley",
+                    "aliasid": 601086
+                }, {
+                    "id": 587554,
+                    "name": "Ploctones",
+                    "aliasid": 601081
+                }, {
+                    "id": 100703,
+                    "name": "Roosbeef",
+                    "aliasid": 100703
+                }, {
+                    "id": 367784,
+                    "name": "Sven Hammond Soul",
+                    "aliasid": 374271
+                }, {
+                    "id": 587555,
+                    "name": "Wouter Kiers' BRT Band",
+                    "aliasid": 601082
+                }, {
+                    "id": 340813,
+                    "name": "Zapp String Quartet",
+                    "aliasid": 345775
+                }],
+                "remastered": false,
+                "remasterYear": 0,
+                "remasterCatalogueNumber": "",
+                "remasterTitle": "",
+                "media": "CD",
+                "encoding": "Lossless",
+                "format": "FLAC",
+                "hasLog": true,
+                "logScore": 85,
+                "hasCue": true,
+                "scene": false,
+                "vanityHouse": false,
+                "fileCount": 23,
+                "time": "2015-07-08 01:21:31",
+                "size": 484891402,
+                "snatches": 1,
+                "seeders": 1,
+                "leechers": 1,
+                "isFreeleech": false,
+                "isNeutralLeech": false,
+                "isPersonalFreeleech": false,
+                "canUseToken": false,
+                "hasSnatched": false
+            }, {
+                "torrentId": 29483296,
+                "editionId": 1,
+                "artists": [{
+                    "id": 587558,
+                    "name": "Accoustic Ladyland",
+                    "aliasid": 601085
+                }, {
+                    "id": 587557,
+                    "name": "Artvark Saxophone Quartet",
+                    "aliasid": 601084
+                }, {
+                    "id": 587553,
+                    "name": "Big Jay McNeely & Friends",
+                    "aliasid": 601080
+                }, {
+                    "id": 587694,
+                    "name": "CC Jerome's Jetsetters",
+                    "aliasid": 601224
+                }, {
+                    "id": 91589,
+                    "name": "Che Sudaka",
+                    "aliasid": 91589
+                }, {
+                    "id": 16260,
+                    "name": "Devon Sproule",
+                    "aliasid": 16260
+                }, {
+                    "id": 63517,
+                    "name": "Gianmaria Testa",
+                    "aliasid": 63517
+                }, {
+                    "id": 78822,
+                    "name": "Katzenjammer",
+                    "aliasid": 78822
+                }, {
+                    "id": 120939,
+                    "name": "King Khan & The Shrines",
+                    "aliasid": 120939
+                }, {
+                    "id": 51339,
+                    "name": "Lonely Drifter Karen",
+                    "aliasid": 51339
+                }, {
+                    "id": 68798,
+                    "name": "Malcolm Holcombe",
+                    "aliasid": 68798
+                }, {
+                    "id": 162170,
+                    "name": "Mdungu",
+                    "aliasid": 163310
+                }, {
+                    "id": 587559,
+                    "name": "Niel Cowley",
+                    "aliasid": 601086
+                }, {
+                    "id": 587554,
+                    "name": "Ploctones",
+                    "aliasid": 601081
+                }, {
+                    "id": 100703,
+                    "name": "Roosbeef",
+                    "aliasid": 100703
+                }, {
+                    "id": 367784,
+                    "name": "Sven Hammond Soul",
+                    "aliasid": 374271
+                }, {
+                    "id": 587555,
+                    "name": "Wouter Kiers' BRT Band",
+                    "aliasid": 601082
+                }, {
+                    "id": 340813,
+                    "name": "Zapp String Quartet",
+                    "aliasid": 345775
+                }],
+                "remastered": false,
+                "remasterYear": 0,
+                "remasterCatalogueNumber": "",
+                "remasterTitle": "",
+                "media": "CD",
+                "encoding": "V0 (VBR)",
+                "format": "MP3",
+                "hasLog": false,
+                "logScore": 0,
+                "hasCue": false,
+                "scene": false,
+                "vanityHouse": false,
+                "fileCount": 19,
+                "time": "2011-07-07 11:21:44",
+                "size": 125830590,
+                "snatches": 30,
+                "seeders": 3,
+                "leechers": 1,
+                "isFreeleech": false,
+                "isNeutralLeech": false,
+                "isPersonalFreeleech": false,
+                "canUseToken": false,
+                "hasSnatched": false
+            }]
+        }, {
+            "groupId": 72387130,
+            "groupName": "The Marmalade Sessions",
+            "artist": "Sven Hammond Soul",
+            "cover": "http://img202.imageshack.us/img202/339/01bookletfrontr.jpg",
+            "tags": ["funk", "soul", "dutch", "hammond"],
+            "bookmarked": false,
+            "vanityHouse": false,
+            "groupYear": 2010,
+            "releaseType": "Album",
+            "groupTime": "1357771061",
+            "maxSize": 446398283,
+            "totalSnatched": 8,
+            "totalSeeders": 2,
+            "totalLeechers": 0,
+            "torrents": [{
+                "torrentId": 30534865,
+                "editionId": 1,
+                "artists": [{
+                    "id": 367784,
+                    "name": "Sven Hammond Soul",
+                    "aliasid": 374271
+                }],
+                "remastered": false,
+                "remasterYear": 0,
+                "remasterCatalogueNumber": "",
+                "remasterTitle": "",
+                "media": "CD",
+                "encoding": "Lossless",
+                "format": "FLAC",
+                "hasLog": true,
+                "logScore": 100,
+                "hasCue": true,
+                "scene": false,
+                "vanityHouse": false,
+                "fileCount": 26,
+                "time": "2013-01-09 22:37:41",
+                "size": 446398283,
+                "snatches": 8,
+                "seeders": 2,
+                "leechers": 0,
+                "isFreeleech": false,
+                "isNeutralLeech": false,
+                "isPersonalFreeleech": false,
+                "canUseToken": false,
+                "hasSnatched": false
+            }]
+        }, {
+            "groupId": 72244184,
+            "groupName": "Giel Jazz 2",
+            "artist": "Various Artists",
+            "cover": "http://i201.photobucket.com/albums/aa185/yourservice/25fcd8b3.jpg",
+            "tags": ["jazz"],
+            "bookmarked": false,
+            "vanityHouse": false,
+            "groupYear": 2012,
+            "releaseType": "Compilation",
+            "groupTime": "1340922334",
+            "maxSize": 1035520796,
+            "totalSnatched": 99,
+            "totalSeeders": 13,
+            "totalLeechers": 0,
+            "torrents": [{
+                "torrentId": 30129772,
+                "editionId": 1,
+                "artists": [{
+                    "id": 430,
+                    "name": "Bonobo",
+                    "aliasid": 430
+                }, {
+                    "id": 649306,
+                    "name": "brown hill",
+                    "aliasid": 665191
+                }, {
+                    "id": 753499,
+                    "name": "Bruno's Boogaloo Orchestra",
+                    "aliasid": 773438
+                }, {
+                    "id": 685083,
+                    "name": "Bruut!",
+                    "aliasid": 702538
+                }, {
+                    "id": 222395,
+                    "name": "Caro Emerald",
+                    "aliasid": 224512
+                }, {
+                    "id": 586415,
+                    "name": "Chef'special",
+                    "aliasid": 599888
+                }, {
+                    "id": 315791,
+                    "name": "Fab Samperi",
+                    "aliasid": 320004
+                }, {
+                    "id": 27215,
+                    "name": "Gare du Nord",
+                    "aliasid": 840700
+                }, {
+                    "id": 6936,
+                    "name": "Incognito",
+                    "aliasid": 6936
+                }, {
+                    "id": 3675,
+                    "name": "Jamiroquai",
+                    "aliasid": 3675
+                }, {
+                    "id": 18861,
+                    "name": "Jazzanova",
+                    "aliasid": 18861
+                }, {
+                    "id": 683406,
+                    "name": "Jesto Funk",
+                    "aliasid": 700802
+                }, {
+                    "id": 586044,
+                    "name": "Jungle by Night",
+                    "aliasid": 599508
+                }, {
+                    "id": 149750,
+                    "name": "Kapabel",
+                    "aliasid": 150367
+                }, {
+                    "id": 62170,
+                    "name": "Kraak & Smaak",
+                    "aliasid": 62170
+                }, {
+                    "id": 753494,
+                    "name": "Luca Tozzi",
+                    "aliasid": 773433
+                }, {
+                    "id": 753497,
+                    "name": "Major Hawthorne",
+                    "aliasid": 773436
+                }, {
+                    "id": 56565,
+                    "name": "Mr. President",
+                    "aliasid": 56565
+                }, {
+                    "id": 11322,
+                    "name": "New Cool Collective",
+                    "aliasid": 11322
+                }, {
+                    "id": 753500,
+                    "name": "Parris & Vanucci",
+                    "aliasid": 773439
+                }, {
+                    "id": 254719,
+                    "name": "Proviant Audio",
+                    "aliasid": 257466
+                }, {
+                    "id": 34117,
+                    "name": "Raphael Saadiq",
+                    "aliasid": 34117
+                }, {
+                    "id": 225334,
+                    "name": "Ray Harris",
+                    "aliasid": 227474
+                }, {
+                    "id": 419740,
+                    "name": "Rob Van de Wouw",
+                    "aliasid": 428697
+                }, {
+                    "id": 128988,
+                    "name": "Sharon Jones",
+                    "aliasid": 128928
+                }, {
+                    "id": 367784,
+                    "name": "Sven Hammond Soul",
+                    "aliasid": 374271
+                }, {
+                    "id": 26219,
+                    "name": "Sven Van Hees",
+                    "aliasid": 26219
+                }, {
+                    "id": 753498,
+                    "name": "The Fusion Experience",
+                    "aliasid": 773437
+                }, {
+                    "id": 753495,
+                    "name": "The Jig",
+                    "aliasid": 773434
+                }, {
+                    "id": 178704,
+                    "name": "The Jivers",
+                    "aliasid": 180367
+                }, {
+                    "id": 632413,
+                    "name": "The Pimptones",
+                    "aliasid": 773435
+                }, {
+                    "id": 15360,
+                    "name": "The Rippingtons",
+                    "aliasid": 15360
+                }, {
+                    "id": 4317,
+                    "name": "Tower of Power",
+                    "aliasid": 4317
+                }, {
+                    "id": 26495,
+                    "name": "Trijntje Oosterhuis",
+                    "aliasid": 26495
+                }, {
+                    "id": 8304,
+                    "name": "Wouter Hamel",
+                    "aliasid": 8304
+                }],
+                "remastered": false,
+                "remasterYear": 0,
+                "remasterCatalogueNumber": "",
+                "remasterTitle": "",
+                "media": "CD",
+                "encoding": "Lossless",
+                "format": "FLAC",
+                "hasLog": true,
+                "logScore": 0,
+                "hasCue": true,
+                "scene": false,
+                "vanityHouse": false,
+                "fileCount": 48,
+                "time": "2012-06-28 22:24:37",
+                "size": 1035520796,
+                "snatches": 40,
+                "seeders": 5,
+                "leechers": 0,
+                "isFreeleech": false,
+                "isNeutralLeech": false,
+                "isPersonalFreeleech": false,
+                "canUseToken": false,
+                "hasSnatched": false
+            }, {
+                "torrentId": 30129773,
+                "editionId": 1,
+                "artists": [{
+                    "id": 430,
+                    "name": "Bonobo",
+                    "aliasid": 430
+                }, {
+                    "id": 649306,
+                    "name": "brown hill",
+                    "aliasid": 665191
+                }, {
+                    "id": 753499,
+                    "name": "Bruno's Boogaloo Orchestra",
+                    "aliasid": 773438
+                }, {
+                    "id": 685083,
+                    "name": "Bruut!",
+                    "aliasid": 702538
+                }, {
+                    "id": 222395,
+                    "name": "Caro Emerald",
+                    "aliasid": 224512
+                }, {
+                    "id": 586415,
+                    "name": "Chef'special",
+                    "aliasid": 599888
+                }, {
+                    "id": 315791,
+                    "name": "Fab Samperi",
+                    "aliasid": 320004
+                }, {
+                    "id": 27215,
+                    "name": "Gare du Nord",
+                    "aliasid": 840700
+                }, {
+                    "id": 6936,
+                    "name": "Incognito",
+                    "aliasid": 6936
+                }, {
+                    "id": 3675,
+                    "name": "Jamiroquai",
+                    "aliasid": 3675
+                }, {
+                    "id": 18861,
+                    "name": "Jazzanova",
+                    "aliasid": 18861
+                }, {
+                    "id": 683406,
+                    "name": "Jesto Funk",
+                    "aliasid": 700802
+                }, {
+                    "id": 586044,
+                    "name": "Jungle by Night",
+                    "aliasid": 599508
+                }, {
+                    "id": 149750,
+                    "name": "Kapabel",
+                    "aliasid": 150367
+                }, {
+                    "id": 62170,
+                    "name": "Kraak & Smaak",
+                    "aliasid": 62170
+                }, {
+                    "id": 753494,
+                    "name": "Luca Tozzi",
+                    "aliasid": 773433
+                }, {
+                    "id": 753497,
+                    "name": "Major Hawthorne",
+                    "aliasid": 773436
+                }, {
+                    "id": 56565,
+                    "name": "Mr. President",
+                    "aliasid": 56565
+                }, {
+                    "id": 11322,
+                    "name": "New Cool Collective",
+                    "aliasid": 11322
+                }, {
+                    "id": 753500,
+                    "name": "Parris & Vanucci",
+                    "aliasid": 773439
+                }, {
+                    "id": 254719,
+                    "name": "Proviant Audio",
+                    "aliasid": 257466
+                }, {
+                    "id": 34117,
+                    "name": "Raphael Saadiq",
+                    "aliasid": 34117
+                }, {
+                    "id": 225334,
+                    "name": "Ray Harris",
+                    "aliasid": 227474
+                }, {
+                    "id": 419740,
+                    "name": "Rob Van de Wouw",
+                    "aliasid": 428697
+                }, {
+                    "id": 128988,
+                    "name": "Sharon Jones",
+                    "aliasid": 128928
+                }, {
+                    "id": 367784,
+                    "name": "Sven Hammond Soul",
+                    "aliasid": 374271
+                }, {
+                    "id": 26219,
+                    "name": "Sven Van Hees",
+                    "aliasid": 26219
+                }, {
+                    "id": 753498,
+                    "name": "The Fusion Experience",
+                    "aliasid": 773437
+                }, {
+                    "id": 753495,
+                    "name": "The Jig",
+                    "aliasid": 773434
+                }, {
+                    "id": 178704,
+                    "name": "The Jivers",
+                    "aliasid": 180367
+                }, {
+                    "id": 632413,
+                    "name": "The Pimptones",
+                    "aliasid": 773435
+                }, {
+                    "id": 15360,
+                    "name": "The Rippingtons",
+                    "aliasid": 15360
+                }, {
+                    "id": 4317,
+                    "name": "Tower of Power",
+                    "aliasid": 4317
+                }, {
+                    "id": 26495,
+                    "name": "Trijntje Oosterhuis",
+                    "aliasid": 26495
+                }, {
+                    "id": 8304,
+                    "name": "Wouter Hamel",
+                    "aliasid": 8304
+                }],
+                "remastered": false,
+                "remasterYear": 0,
+                "remasterCatalogueNumber": "",
+                "remasterTitle": "",
+                "media": "CD",
+                "encoding": "320",
+                "format": "MP3",
+                "hasLog": false,
+                "logScore": 0,
+                "hasCue": false,
+                "scene": false,
+                "vanityHouse": false,
+                "fileCount": 44,
+                "time": "2012-06-28 22:25:10",
+                "size": 354741808,
+                "snatches": 12,
+                "seeders": 1,
+                "leechers": 0,
+                "isFreeleech": false,
+                "isNeutralLeech": false,
+                "isPersonalFreeleech": false,
+                "canUseToken": false,
+                "hasSnatched": false
+            }, {
+                "torrentId": 30129774,
+                "editionId": 1,
+                "artists": [{
+                    "id": 430,
+                    "name": "Bonobo",
+                    "aliasid": 430
+                }, {
+                    "id": 649306,
+                    "name": "brown hill",
+                    "aliasid": 665191
+                }, {
+                    "id": 753499,
+                    "name": "Bruno's Boogaloo Orchestra",
+                    "aliasid": 773438
+                }, {
+                    "id": 685083,
+                    "name": "Bruut!",
+                    "aliasid": 702538
+                }, {
+                    "id": 222395,
+                    "name": "Caro Emerald",
+                    "aliasid": 224512
+                }, {
+                    "id": 586415,
+                    "name": "Chef'special",
+                    "aliasid": 599888
+                }, {
+                    "id": 315791,
+                    "name": "Fab Samperi",
+                    "aliasid": 320004
+                }, {
+                    "id": 27215,
+                    "name": "Gare du Nord",
+                    "aliasid": 840700
+                }, {
+                    "id": 6936,
+                    "name": "Incognito",
+                    "aliasid": 6936
+                }, {
+                    "id": 3675,
+                    "name": "Jamiroquai",
+                    "aliasid": 3675
+                }, {
+                    "id": 18861,
+                    "name": "Jazzanova",
+                    "aliasid": 18861
+                }, {
+                    "id": 683406,
+                    "name": "Jesto Funk",
+                    "aliasid": 700802
+                }, {
+                    "id": 586044,
+                    "name": "Jungle by Night",
+                    "aliasid": 599508
+                }, {
+                    "id": 149750,
+                    "name": "Kapabel",
+                    "aliasid": 150367
+                }, {
+                    "id": 62170,
+                    "name": "Kraak & Smaak",
+                    "aliasid": 62170
+                }, {
+                    "id": 753494,
+                    "name": "Luca Tozzi",
+                    "aliasid": 773433
+                }, {
+                    "id": 753497,
+                    "name": "Major Hawthorne",
+                    "aliasid": 773436
+                }, {
+                    "id": 56565,
+                    "name": "Mr. President",
+                    "aliasid": 56565
+                }, {
+                    "id": 11322,
+                    "name": "New Cool Collective",
+                    "aliasid": 11322
+                }, {
+                    "id": 753500,
+                    "name": "Parris & Vanucci",
+                    "aliasid": 773439
+                }, {
+                    "id": 254719,
+                    "name": "Proviant Audio",
+                    "aliasid": 257466
+                }, {
+                    "id": 34117,
+                    "name": "Raphael Saadiq",
+                    "aliasid": 34117
+                }, {
+                    "id": 225334,
+                    "name": "Ray Harris",
+                    "aliasid": 227474
+                }, {
+                    "id": 419740,
+                    "name": "Rob Van de Wouw",
+                    "aliasid": 428697
+                }, {
+                    "id": 128988,
+                    "name": "Sharon Jones",
+                    "aliasid": 128928
+                }, {
+                    "id": 367784,
+                    "name": "Sven Hammond Soul",
+                    "aliasid": 374271
+                }, {
+                    "id": 26219,
+                    "name": "Sven Van Hees",
+                    "aliasid": 26219
+                }, {
+                    "id": 753498,
+                    "name": "The Fusion Experience",
+                    "aliasid": 773437
+                }, {
+                    "id": 753495,
+                    "name": "The Jig",
+                    "aliasid": 773434
+                }, {
+                    "id": 178704,
+                    "name": "The Jivers",
+                    "aliasid": 180367
+                }, {
+                    "id": 632413,
+                    "name": "The Pimptones",
+                    "aliasid": 773435
+                }, {
+                    "id": 15360,
+                    "name": "The Rippingtons",
+                    "aliasid": 15360
+                }, {
+                    "id": 4317,
+                    "name": "Tower of Power",
+                    "aliasid": 4317
+                }, {
+                    "id": 26495,
+                    "name": "Trijntje Oosterhuis",
+                    "aliasid": 26495
+                }, {
+                    "id": 8304,
+                    "name": "Wouter Hamel",
+                    "aliasid": 8304
+                }],
+                "remastered": false,
+                "remasterYear": 0,
+                "remasterCatalogueNumber": "",
+                "remasterTitle": "",
+                "media": "CD",
+                "encoding": "V0 (VBR)",
+                "format": "MP3",
+                "hasLog": false,
+                "logScore": 0,
+                "hasCue": false,
+                "scene": false,
+                "vanityHouse": false,
+                "fileCount": 44,
+                "time": "2012-06-28 22:25:34",
+                "size": 273654456,
+                "snatches": 47,
+                "seeders": 7,
+                "leechers": 0,
+                "isFreeleech": false,
+                "isNeutralLeech": false,
+                "isPersonalFreeleech": false,
+                "canUseToken": false,
+                "hasSnatched": false
+            }]
+        }, {
+            "groupId": 72223738,
+            "groupName": "Aangenaam Soul 2010",
+            "artist": "Various Artists",
+            "cover": "http://i201.photobucket.com/albums/aa185/yourservice/34310d44.jpg",
+            "tags": ["soul"],
+            "bookmarked": false,
+            "vanityHouse": false,
+            "groupYear": 2010,
+            "releaseType": "Compilation",
+            "groupTime": "1338344377",
+            "maxSize": 630779368,
+            "totalSnatched": 6,
+            "totalSeeders": 1,
+            "totalLeechers": 0,
+            "torrents": [{
+                "torrentId": 30078977,
+                "editionId": 1,
+                "artists": [{
+                    "id": 3685,
+                    "name": "Al Green",
+                    "aliasid": 3685
+                }, {
+                    "id": 69895,
+                    "name": "Alain Clark",
+                    "aliasid": 69895
+                }, {
+                    "id": 18227,
+                    "name": "Angie Stone",
+                    "aliasid": 18227
+                }, {
+                    "id": 5761,
+                    "name": "Chaka Khan",
+                    "aliasid": 5761
+                }, {
+                    "id": 12452,
+                    "name": "Corinne Bailey Rae",
+                    "aliasid": 12452
+                }, {
+                    "id": 12420,
+                    "name": "De-Phazz",
+                    "aliasid": 1172800
+                }, {
+                    "id": 67427,
+                    "name": "Eli \"Paperboy\" Reed",
+                    "aliasid": 67427
+                }, {
+                    "id": 11299,
+                    "name": "Erykah Badu",
+                    "aliasid": 720087
+                }, {
+                    "id": 6936,
+                    "name": "Incognito",
+                    "aliasid": 6936
+                }, {
+                    "id": 20271,
+                    "name": "Joss Stone",
+                    "aliasid": 20271
+                }, {
+                    "id": 177674,
+                    "name": "Kings Go Forth",
+                    "aliasid": 179326
+                }, {
+                    "id": 45824,
+                    "name": "Leela James",
+                    "aliasid": 45824
+                }, {
+                    "id": 17073,
+                    "name": "Macy Gray",
+                    "aliasid": 17073
+                }, {
+                    "id": 128426,
+                    "name": "N'Dambi",
+                    "aliasid": 128364
+                }, {
+                    "id": 30026,
+                    "name": "Naturally 7",
+                    "aliasid": 30026
+                }, {
+                    "id": 739390,
+                    "name": "Pam Feather",
+                    "aliasid": 758883
+                }, {
+                    "id": 2694,
+                    "name": "Robin Thicke",
+                    "aliasid": 2694
+                }, {
+                    "id": 85022,
+                    "name": "Sabrina Starke",
+                    "aliasid": 85022
+                }, {
+                    "id": 17202,
+                    "name": "Solomon Burke",
+                    "aliasid": 17202
+                }, {
+                    "id": 739389,
+                    "name": "Sven 'Hammond' Soul",
+                    "aliasid": 758882
+                }, {
+                    "id": 13261,
+                    "name": "The Bamboos",
+                    "aliasid": 13261
+                }, {
+                    "id": 4317,
+                    "name": "Tower of Power",
+                    "aliasid": 4317
+                }, {
+                    "id": 26495,
+                    "name": "Trijntje Oosterhuis",
+                    "aliasid": 26495
+                }, {
+                    "id": 206669,
+                    "name": "Waylon",
+                    "aliasid": 208532
+                }],
+                "remastered": false,
+                "remasterYear": 0,
+                "remasterCatalogueNumber": "",
+                "remasterTitle": "",
+                "media": "CD",
+                "encoding": "Lossless",
+                "format": "FLAC",
+                "hasLog": true,
+                "logScore": 100,
+                "hasCue": true,
+                "scene": false,
+                "vanityHouse": false,
+                "fileCount": 36,
+                "time": "2012-05-30 02:19:37",
+                "size": 630779368,
+                "snatches": 6,
+                "seeders": 1,
+                "leechers": 0,
+                "isFreeleech": false,
+                "isNeutralLeech": false,
+                "isPersonalFreeleech": false,
+                "canUseToken": false,
+                "hasSnatched": false
+            }]
+        }]
+    }
+}

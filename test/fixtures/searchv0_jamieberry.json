@@ -1,0 +1,55 @@
+{
+    "status": "success",
+    "response": {
+        "currentPage": 1,
+        "pages": 1,
+        "results": [{
+            "groupId": 72389118,
+            "groupName": "Electric Rainbow",
+            "artist": "Jamie Berry",
+            "cover": "http://ecx.images-amazon.com/images/I/513tMjKOgiL._SL500_AA500_.jpg",
+            "tags": ["dance", "house"],
+            "bookmarked": false,
+            "vanityHouse": false,
+            "groupYear": 2011,
+            "releaseType": "EP",
+            "groupTime": "1357961309",
+            "maxSize": 47454611,
+            "totalSnatched": 53,
+            "totalSeeders": 9,
+            "totalLeechers": 0,
+            "torrents": [{
+                "torrentId": 30541551,
+                "editionId": 1,
+                "artists": [{
+                    "id": 756217,
+                    "name": "Jamie Berry",
+                    "aliasid": 776259
+                }],
+                "remastered": false,
+                "remasterYear": 0,
+                "remasterCatalogueNumber": "",
+                "remasterTitle": "",
+                "media": "WEB",
+                "encoding": "V0 (VBR)",
+                "format": "MP3",
+                "hasLog": false,
+                "logScore": 0,
+                "hasCue": false,
+                "scene": false,
+                "vanityHouse": false,
+                "fileCount": 5,
+                "time": "2013-01-12 03:28:29",
+                "size": 47454611,
+                "snatches": 53,
+                "seeders": 9,
+                "leechers": 0,
+                "isFreeleech": false,
+                "isNeutralLeech": false,
+                "isPersonalFreeleech": false,
+                "canUseToken": false,
+                "hasSnatched": false
+            }]
+        }]
+    }
+}

@@ -1,0 +1,3 @@
+relog if cookie invalid, if failed again -> error
+username & password optional if cookie exists (add to readme)
+fix cookie bug

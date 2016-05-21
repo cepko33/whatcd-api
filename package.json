@@ -1,0 +1,36 @@
+{
+  "name": "whatcd-api",
+  "version": "1.0.0",
+  "description": "WhatCD API client based on promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christilut/whatcd-api.git"
+  },
+  "keywords": [
+    "whatcd",
+    "api"
+  ],
+  "author": "Christiaan Maks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christilut/whatcd-api/issues"
+  },
+  "homepage": "https://github.com/Christilut/whatcd-api#readme",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "limiter": "^1.1.0",
+    "loglevel": "^1.4.0",
+    "request-promise": "^3.0.0",
+    "tough-cookie": "^2.2.2",
+    "try-parse-json": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "nock": "^8.0.0"
+  }
+}
