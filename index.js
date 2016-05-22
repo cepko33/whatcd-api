@@ -2,9 +2,11 @@ const COOKIE_FILE = 'cookie.json'
 
 const log = require('loglevel')
 const fs = require('fs')
+const fsp = require('fs-promise')
 const tryParseJson = require('try-parse-json')
 const tough = require('tough-cookie')
 const RateLimiter = require('limiter').RateLimiter
+const path = require('path')
 let rp = require('request-promise')
 
 const Promise = require('bluebird')
@@ -59,6 +61,40 @@ class WhatCD {
     return false
   }
 
+  static _buildUri(domain, endpoint, action, params) {
+    if (!action) throw new Error('action parameter missing')
+    if (!domain) throw new Error('domain parameter missing')
+    if (params && typeof params !== 'object') throw new Error('invalid params parameter')
+
+    let uri = `${domain}/${endpoint}.php?action=${action}`
+
+    if (params) {
+      for (let key of Object.keys(params)) {
+        uri += `&${key}=${params[key]}`
+      }
+    }
+
+    uri = encodeURI(uri)
+
+    log.debug('Built URI: ' + uri)
+
+    return uri
+  }
+
+  static _extractFilename(headers) {
+    const contentDisposition = headers['content-disposition']
+
+    if (contentDisposition.indexOf('attachment; filename="') !== 0) throw new Error('invalid content disposition')
+
+    let filename = contentDisposition.replace('attachment; filename="', '')
+    filename = filename.slice(0, filename.length - 1)
+    filename = filename.replace(/-\d+\.torrent/, '.torrent')
+
+    log.debug('Found filename: ' + filename)
+
+    return filename
+  }
+
   _login() {
     if (!this.username) throw new Error('username required')
     if (!this.password) throw new Error('password required')
@@ -67,7 +103,7 @@ class WhatCD {
 
     return new Promise((resolve, reject) => {
       this.limiter.removeTokens(1, (err, remainingRequests) => {
-        log.info('Requests remaining: ', remainingRequests)
+        log.debug('Requests remaining: ', remainingRequests)
 
         resolve(rp({
             uri: this.domain + '/login.php',
@@ -95,44 +131,26 @@ class WhatCD {
     })
   }
 
-  static _buildUri(domain, action, params) {
-    if (!action) throw new Error('action parameter missing')
-    if (!domain) throw new Error('domain parameter missing')
-    if (params && typeof params !== 'object') throw new Error('invalid params parameter')
-
-    let uri = `${domain}/ajax.php?action=${action}`
-
-    if (params) {
-      for (let key of Object.keys(params)) {
-        uri += `&${key}=${params[key]}`
-      }
-    }
-
-    uri = encodeURI(uri)
-
-    log.debug('Built URI: ' + uri)
-
-    return uri
-  }
-
-  action(action, params) {
+  action(action, params, endpoint = 'ajax', binary = false) {
     return new Promise((resolve, reject) => {
 
       const loginPromise = this._login()
 
       this.limiter.removeTokens(1, (err, remainingRequests) => {
-        log.info('Requests remaining: ', remainingRequests)
+        log.debug('Requests remaining: ', remainingRequests)
 
         loginPromise.then(() => {
           const actionPromise = rp({
-              uri: WhatCD._buildUri(this.domain, action, params),
+              uri: WhatCD._buildUri(this.domain, endpoint, action, params),
               method: 'GET',
-              json: true
+              json: true,
+              resolveWithFullResponse: true,
+              encoding: binary ? null : undefined
             })
-            .then(function(body) {
+            .then(function(response) {
               log.info('Action complete: ' + action, params)
-              if (typeof body === 'string' && body.indexOf('<!DOCTYPE') === 0) throw new Error('cookie no longer valid? TODO')
-              return body
+              if (typeof response.body === 'string' && response.body.indexOf('<!DOCTYPE') === 0) throw new Error('cookie no longer valid? TODO')
+              return response
             })
 
           resolve(actionPromise)
@@ -170,9 +188,9 @@ class WhatCD {
       return sanitizedResponse
     }
 
-    function validateResponse(response) {
-      if (response.status !== 'success') {
-        log.debug(response)
+    function validateResponse(body) {
+      if (body.status !== 'success') {
+        log.debug(body)
         throw new Error('response failed')
       }
     }
@@ -182,25 +200,39 @@ class WhatCD {
       searchstr: album,
       encoding: Encoding.C320
     }).then(response => {
-      validateResponse(response)
+      let body = response.body
+      validateResponse(body)
 
-      if (response.response.results.length === 0) {
+      if (body.response.results.length === 0) {
         return this.action('browse', {
           artistname: artist,
           searchstr: album,
           encoding: Encoding.V0
         }).then(response => {
-          validateResponse(response)
+          body = response.body
+          validateResponse(body)
 
-          return sanitizeResponse(response.response.results)
+          return sanitizeResponse(body.response.results)
         })
       }
 
-      return sanitizeResponse(response.response.results)
+      return sanitizeResponse(body.response.results)
     })
   }
 
-  download(id, path) {
+  download(id, targetpath) {
+    if (path.extname(targetpath)) throw new Error('path cannot contain a filename')
+
+    return this.action('download', {
+        id: id
+      },
+      'torrents',
+      true
+    ).then(response => {
+      const filename = WhatCD._extractFilename(response.headers)
+
+      return fsp.writeFile(path.join(targetpath, filename), response.body, 'binary')
+    })
 
   }
 }

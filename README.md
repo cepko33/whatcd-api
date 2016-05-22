@@ -27,6 +27,8 @@ what.action('browse', {
 
 ### Rate limited
 
+This library is rate limited to 5 requests per 10 seconds as specified by the WhatCD API documentation. So if you notice a few fast requests and sometimes a slow one, its probably waiting on rate limiting.
+
 # API
 
 `what.action(action=string, parameters=object)`: Low level method to perform any action as described in the WhatCD API documentation.
@@ -34,8 +36,6 @@ what.action('browse', {
 `what.search(artist=string, album=string)`: Helper method that searches for an artist/album. It will start at 320kbps and lower the quality until it finds a result with any seeders.
 
 `what.download(id=string, path=string)`: Helper method to download a .torrent file from the torrent ID that was supplied.
-
-This library is rate limited to 5 requests per 10 seconds as specified by the WhatCD API documentation. So if you notice a few fast requests and sometimes a slow one, its probably waiting on rate limiting.
 
 # Testing
 

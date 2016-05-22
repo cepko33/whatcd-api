@@ -36,4 +36,10 @@ if (process.env.LIVE) {
     .reply(200, () => {
       return JSON.parse(fs.readFileSync(__dirname + '/fixtures/searchv0_jamieberry.json', 'utf8'))
     })
+
+  nock('https://ssl.what.cd')
+    .get('/torrents.php?action=download&id=30836090')
+    .reply(200, 'binary data here', {
+      'content-disposition': 'attachment; filename="Rammstein - Sehnsucht - 1997 (CD - MP3 - 320)-30836090.torrent"'
+    })
 }
