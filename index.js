@@ -39,7 +39,6 @@ class WhatCD {
 
     this.limiter = new RateLimiter(5, 10000) // = 5 per 10 seconds
 
-
     // if (fs.existsSync(COOKIE_FILE)) {
     //   this.jar = tough.CookieJar.fromJSON(fs.readFileSync(COOKIE_FILE, 'utf8')) // doesnt work but should
     // } else {
@@ -50,6 +49,10 @@ class WhatCD {
     rp = rp.defaults({
       jar: true // use default jar for now
     })
+  }
+
+  enableMocking() {
+    require(__dirname + '/test/mock.js')
   }
 
   static _isLoggedIn() {

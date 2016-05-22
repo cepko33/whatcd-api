@@ -11,7 +11,7 @@ Requires Node >= 6.0
 
 # Usage
 
-Check [WhatCD API](https://github.com/WhatCD/Gazelle/wiki/JSON-API-Documentation) for all available endpoints. For example, the browse action (which searches WhatCD) requires a `searchstr` parameter so you must add that in the object passed to `g.action()`.
+Check [WhatCD API](https://github.com/WhatCD/Gazelle/wiki/JSON-API-Documentation) for all available endpoints. For example, the browse action (which searches WhatCD) requires a `searchstr` parameter so you must add that in the object passed to `what.action()`.
 
 ```js
 const WhatCD = require('whatcd-api')
@@ -33,9 +33,9 @@ This library is rate limited to 5 requests per 10 seconds as specified by the Wh
 
 `what.action(action=string, parameters=object)`: Low level method to perform any action as described in the WhatCD API documentation.
 
-`what.search(artist=string, album=string)`: Helper method that searches for an artist/album. It will start at 320kbps and lower the quality until it finds a result with any seeders.
+`what.search(artist=string, album=string)`: Helper method that searches for an artist/album. It will start at 320kbps and search for a V0 release if nothing was found.
 
-`what.download(id=string, path=string)`: Helper method to download a .torrent file from the torrent ID that was supplied.
+`what.download(id=integer, path=string)`: Helper method to download a .torrent file from the torrent ID that was supplied. Will save to specified path. Path must not include a filename.
 
 # Testing
 
