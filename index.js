@@ -1,3 +1,4 @@
+'use strict';
 const COOKIE_FILE = 'cookie.json'
 
 const log = require('loglevel')
